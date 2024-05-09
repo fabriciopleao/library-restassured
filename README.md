@@ -27,7 +27,7 @@ Executar os testes pelo terminal
 
 ## Avisos:
 ### Status Report estará na pasta target>cucumber-reports após a execução do projeto. (Verifique pelo Explorador de Arquivos)
-### Altere a tag da funcionalidade que deseja testar (@post, @get, @put, @delete ou @integration para executar todos)
+### Altere a tag da funcionalidade que deseja testar na classe Executa (@post, @get, @put, @delete ou @integration para executar todos)
 
 
 # O projeto receberá atualizações frequentes pois a aplicação E2E Library está em desenvolvimento!
