@@ -8,8 +8,6 @@ Projeto com finalidade de validar o sistema de API da E2E Library, utilizando te
 - Cucumber Options
 - Java Faker
 
-# O projeto receberá atualizações frequentes pois a aplicação E2E Library está em desenvolvimento!
-
 ## Configuração do ambiente - Execução pelo terminal
 Para executar esse projeto é necessário as configurações das variáveis de ambiente 
 JDK e Maven:
@@ -27,4 +25,9 @@ Executar os testes pelo terminal
 
     mvn test -Dtest=Executa
 
+## Avisos:
 ### Status Report estará na pasta target>cucumber-reports após a execução do projeto. (Verifique pelo Explorador de Arquivos)
+### Altere a tag da funcionalidade que deseja testar (@post, @get, @put, @delete ou @integration para executar todos)
+
+
+# O projeto receberá atualizações frequentes pois a aplicação E2E Library está em desenvolvimento!
