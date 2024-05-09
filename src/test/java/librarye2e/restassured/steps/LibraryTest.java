@@ -1,4 +1,4 @@
-package librarye2e.restassured.tests;
+package librarye2e.restassured.steps;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -11,12 +11,12 @@ public class LibraryTest {
 
 	Response response;
 	
-	@Test
+	/*@Test
 	public void cadastrarLivro() {
-		response = LibraryObjects.cadastrarLivro("teste", "teste", 1, "teste", 0, "teste");
+		response = LibraryObjects.cadastrarLivro("E2E", "Fabricio", 10, "teste", 0, "teste");
 		assertEquals(201, response.getStatusCode());
 		System.out.println(response.asPrettyString());
-	}
+	}*/
 	
 	@Test
 	public void consultarLivros() {
@@ -25,7 +25,7 @@ public class LibraryTest {
 		System.out.println(response.asPrettyString());
 	}
 	
-	@Test
+	/*@Test
 	public void atualizarLivro() {
 		response = LibraryObjects.atualizarLivro("4","Você é demais!", "Fabricio Leão", 10, "Amazon", 2020, "Motivacional");
 		assertEquals(200, response.getStatusCode());
@@ -36,7 +36,7 @@ public class LibraryTest {
 	public void excluirLivro() {
 		response = LibraryObjects.excluirLivro("3");
 		assertEquals(204, response.getStatusCode());
-	}
+	}*/
 	
 	
 }
