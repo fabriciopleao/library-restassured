@@ -1,4 +1,4 @@
-# Automação de testes de integração (API)
+# Automação de testes integrados (API)
 Projeto com finalidade de validar o sistema de API da E2E Library, utilizando tecnologias de automação de testes e geradores de massa de dados fake.
 
 ## Tecnologias utilizadas
